@@ -12,6 +12,7 @@ def main(global_config, **settings):
     if 'DATABASE_URL' in os.environ:
         settings['sqlalchemy.url'] = os.environ['DATABASE_URL']
     engine = engine_from_config(settings, 'sqlalchemy.')
+
     DBSession.configure(bind=engine)
     Base.metadata.bind = engine
     secret = os.environ.get('AUTH_SECRET', 'somesecret')
