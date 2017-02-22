@@ -16,9 +16,6 @@ Jinja2==2.8
 jsonschema==2.5.1
 jupyter-client==4.4.0
 jupyter-core==4.2.0
--e git+https://github.com/sasimandava/PyramidProject_Heroku@8a22ef7720906ed1a159c7e18f0f803efec803b6#egg=learning_journal
-## !! Could not determine repository location
-learning-journal2==0.0
 Mako==1.0.6
 MarkupSafe==0.23
 mccabe==0.5.2
@@ -52,7 +49,6 @@ repoze.lru==0.6
 requests==2.11.1
 simplegeneric==0.8.1
 six==1.10.0
-## !! Could not determine repository location
 sm-pyramid-project1==0.0
 snowballstemmer==1.2.1
 Sphinx==1.4.6
